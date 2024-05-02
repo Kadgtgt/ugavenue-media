@@ -308,7 +308,7 @@ h5 {
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
-	background: linear-gradient(rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.8) 50%), url(phone\ jpg.jpg);
+	/* background: linear-gradient(rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.8) 50%), url(phone\ jpg.jpg); */
 }
 
 h7 {
@@ -319,102 +319,55 @@ h7 {
 .contact-me p {
 	color: white;
 	font-size: 19px;
-	font-family: 'Poppins';
+	font-family: "Poppins";
 	letter-spacing: 1px;
 	/* font-weight: bold; */
 	margin-bottom: 20px;
 }
 
-<<<<<<< HEAD:Styles/portfolio.css
-.contact-list {
-	transform: translate(-50%, 0);
-}
-
 .fa-phone {
 	font-size: 20px;
 	color: #76f21d; /* Phone*/
-=======
-
-.fa-phone {
-    font-size:20px;
-    color: #76f21d; /* Phone*/
->>>>>>> d9aa1a7b77bfcd0d7fd90f4a2f586558ed752d7d:portfolio.css
 }
 .fa-envelope {
-    font-size:20px;
+	font-size: 20px;
 }
 .fa-square-instagram {
-<<<<<<< HEAD:Styles/portfolio.css
-	font-size: 20px;
-	color: #65100a; /* Instagram */
+	font-size: 32px;
+	color: #85250a; /* Instagram */
 }
 .fa-tiktok {
-	font-size: 20px;
+	font-size: 32px;
 	color: #060920; /* Tiktok */
 }
 .fa-facebook {
-	font-size: 20px;
+	font-size: 32px;
 	color: #1da1f2; /* facebook */
 }
 .fa-linkedin {
-	font-size: 20px;
+	font-size: 32px;
 	color: #0d507a; /* LinkedIn */
 }
 .fa-x-twitter {
-	font-size: 20px;
+	font-size: 32px;
 	color: #000;
 }
 
 ul {
-	list-style: none;
-}
-
-li {
-	color: #fff;
-	padding: 8px;
-	letter-spacing: 5px;
-}
-
-li span {
-	font-size: 26px;
-	color: rgba(255, 255, 255, 0.5);
-=======
-    font-size:32px;
-    color: #85250a; /* Instagram */
-}
-.fa-tiktok {
-    font-size:32px;
-    color: #060920; /* Tiktok */
-}
-.fa-facebook {
-    font-size:32px;
-    color: #1da1f2; /* facebook */
-}
-.fa-linkedin {
-    font-size:32px;
-    color: #0d507a; /* LinkedIn */
-}
-.fa-x-twitter {
-    font-size:32px;
-	color: #000;
-}
-
-ul{
 	/* display: flex; */
 	list-style: none;
 }
 
-.links{
+.links {
 	display: flex;
 	justify-content: center;
 	margin-top: 20px;
 }
 
-li{
+li {
 	color: #fff;
 	padding: 8px;
 	letter-spacing: 4px;
->>>>>>> d9aa1a7b77bfcd0d7fd90f4a2f586558ed752d7d:portfolio.css
 }
 
 footer {
