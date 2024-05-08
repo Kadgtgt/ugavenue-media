@@ -17,8 +17,7 @@
 .hero {
 	height: 110vh;
 	width: 100%;
-	/* background-color: #fffff3; */
-	background-color: beige;
+	background-color: white;
 }
 
 nav {
@@ -32,7 +31,7 @@ nav {
 
 .logo {
 	color: black;
-	font-size: 35px;
+	font-size: 36px;
 	letter-spacing: 1px;
 	cursor: pointer;
 }
@@ -58,8 +57,21 @@ nav ul li a {
 nav ul li a:hover {
 	color: gold;
 	transition: 0.2s;
-	/* box-shadow: #222 1px 0 5px; */
 	transform: translateY(-5px);
+}
+
+.dir {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.dir:hover {
+	transition: 0.2s;
+	transition: transform 0.4s;
+	transform: scale(1.2);
 }
 
 .content {
@@ -105,12 +117,11 @@ h4 {
 
 .about {
 	width: 100%;
-	background-color: white;
+	background-color: gold;
 }
 
 .main {
 	width: 405px;
-	/* max-width: 90%; */
 	margin: 0px 750px;
 	display: flex;
 	align-items: center;
@@ -127,41 +138,46 @@ h4 {
 }
 
 .about-text h2 {
-	color: black;
-	font-size: 80px;
+	color: white;
+	font-size: 90px;
 	text-transform: capitalize;
-	/* margin-bottom: 30px auto; */
+	font-family: sans-serif;
 }
 
 .about-text h5 {
 	color: black;
 	letter-spacing: 2px;
 	font-size: 23px;
-	/* margin-bottom: 25px; */
 	text-transform: capitalize;
 }
 
 .about-text p {
 	color: black;
 	letter-spacing: 2px;
-	/* line-height: 28px; */
 	font-size: 18px;
-	/* margin-bottom: 45px; */
 }
 
 .service {
 	background: #101010;
 	width: 100%;
 	padding: 5px 0px;
-	/* max-height: 50vh; */
 }
 
 .title h2 {
 	color: white;
-	font-size: 75px;
+	font-size: 120px;
 	width: 1130px;
-	margin: 30px auto;
+	margin: 20px auto;
 	text-align: center;
+	font-family: sans-serif;
+}
+
+.g {
+	color: gold;
+	display: flex;
+	justify-content: center;
+	font-family: sans-serif;
+	font-size: 20px;
 }
 
 .cards {
@@ -180,8 +196,8 @@ h4 {
 	max-height: 25rem;
 	height: 25rem;
 	width: 100%;
-	padding: 20px 35px;
-	margin: 40px;
+	padding: 20px 25px;
+	margin: 45px;
 	color: #fff;
 	background: #000;
 	text-align: center;
@@ -268,9 +284,8 @@ h5 {
 .card p {
 	opacity: 0;
 	font-size: 0.96rem;
-	color: rgba(252, 228, 252);
+	color: rgb(255, 255, 255);
 	font-family: "Poppins", sans-serif;
-	/* line-height: 20px; */
 	letter-spacing: 0.1rem;
 	transition: all 0.4s ease;
 }
@@ -303,58 +318,53 @@ h5 {
 .contact-me {
 	width: 100%;
 	height: 500px;
-	/* background: #191919; */
 	display: flex;
 	align-items: center;
-	flex-direction: column;
 	justify-content: center;
-	/* background: linear-gradient(rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.8) 50%), url(phone\ jpg.jpg); */
+	background: gold;
 }
 
 h7 {
 	color: white;
-	font-size: 100px;
+	font-size: 145px;
+	font-family: sans-serif;
+	margin-left: 30px;
 }
 
 .contact-me p {
-	color: white;
+	color: black;
 	font-size: 19px;
-	font-family: "Poppins";
+	font-family: sans-serif;
 	letter-spacing: 1px;
-	/* font-weight: bold; */
+	font-weight: bold;
 	margin-bottom: 20px;
 }
 
 .fa-phone {
-	font-size: 20px;
-	color: #76f21d; /* Phone*/
+	font-size: 15px;
+	color: black; /* Phone*/
 }
+
 .fa-envelope {
-	font-size: 20px;
+	font-size: px17;
 }
+
 .fa-square-instagram {
-	font-size: 32px;
+	font-size: 10px;
 	color: #85250a; /* Instagram */
 }
-.fa-tiktok {
-	font-size: 32px;
-	color: #060920; /* Tiktok */
-}
-.fa-facebook {
-	font-size: 32px;
-	color: #1da1f2; /* facebook */
-}
+
 .fa-linkedin {
-	font-size: 32px;
+	font-size: 10px;
 	color: #0d507a; /* LinkedIn */
 }
+
 .fa-x-twitter {
-	font-size: 32px;
-	color: #000;
+	font-size: 10px;
+	color: #000; /* Twitter*/
 }
 
 ul {
-	/* display: flex; */
 	list-style: none;
 }
 
@@ -373,7 +383,7 @@ li {
 footer {
 	position: relative;
 	width: 100%;
-	height: 190px;
+	height: 130px;
 	background: #101010;
 	display: flex;
 	flex-direction: column;
